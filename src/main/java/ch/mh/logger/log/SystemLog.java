@@ -10,5 +10,6 @@ public class SystemLog extends AbstractLog {
 	public void logMessage(String message) {
 		System.out.println(message);
 		messageCount++;
+		System.out.println("kekw");
 	}
 }
